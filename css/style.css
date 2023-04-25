@@ -1,0 +1,303 @@
+/* COLORES
+#D5DB8: light-green
+#AEAFF8: lilac
+#F7F6F3: off-white
+#376A20: dark-green
+*/
+
+
+/* TIPOGRAFÍA */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500;1,800&display=swap');
+;
+
+.typo-externa{
+    font-family:'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV */
+
+.header{
+    background-color: #D5DB8B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Open Sans";
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    max-height: 20vh;
+}
+
+.header a img{
+    max-width: 28vh;
+  }
+
+.header .navbar{
+    background-color: transparent !important;
+    position: fixed top;
+}
+
+.container-fluid header nav ul li a{
+    text-decoration:none;
+    color: orange !important ;
+    }
+
+.nav-link active{
+    color: #376A20;
+}  
+
+
+
+.main{
+    background-color: #F7F6F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 70vh
+    }
+
+.nav ul{
+    background-color: #D5DB8B; 
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-around;
+    }
+
+.nav a{
+    text-decoration: none;
+    color: #AEAFF8;
+    font-weight: bold;
+    }
+
+
+/* INDEX */
+.banner-principal{
+    min-width: 100%
+    }
+
+.imagen-1{
+    height: 100%;
+    width: 100%
+    
+}
+
+.coleccion-capsula{
+    font-family: "Open Sans";
+    }
+
+.coleccion-capsula h1{
+    color: #D5DB8B;
+    margin: 150px;
+    font-size: 50px;
+    text-align: left;
+    white-space: pre-line;
+    }
+
+.coleccion-capsula p{
+    margin: 150px;
+    max-width: 500px;
+    }
+
+.capsula-story{
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin: 16px;
+
+}
+.coleccion-capsula video{
+    min-height: 50vh;
+}
+
+.imagen-capsula{
+    margin: 100px;
+    border-radius: 20px;
+    min-height: 20%;
+    width: 15%;
+    }
+
+.video-capsula{
+    margin: 100px;
+    border-radius: 20px;
+    height: 200px
+    }
+
+/* FOOTER */
+.footer-info {
+    font-family: "Open Sans";
+    background-color:#AEAFF8;
+    min-height: 15vh;
+    color: #F7F6F3;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed bottom;
+
+  
+   
+}
+
+
+    /* WORKSHOPS */
+.navbar navbar-expand-lg bg-body-tertiary{
+    min-height: 10vh;
+}
+    
+.Titulo-workshop{
+       margin: 16px;
+       font-family: "Open Sans";
+       }
+
+.texto-workshop{
+        margin: 50px;
+        font-family: "Open Sans";
+        min-width: 1rem;
+    }
+
+.main-workshop{
+        margin: 5rem
+    }
+
+.main-workshop img{
+        min-width: 16px;
+    }
+
+.main-workshop button{
+        margin: 16px;
+        padding: 4px;
+        font-family: "Open Sans";
+        background-color: #D5DB8B;
+        color: #F7F6F3;
+        border-radius: 10px;
+        border-radius: 15px;
+        border:#376A20;
+    }
+
+.carousel-control-prev,
+.carousel-control-next {
+      background-color: #AEAFF8;
+    }
+    
+    .main-workshop button:hover{
+        background-color: #F7F6F3;
+        color: #376A20;
+        
+    }
+    
+
+/* QUIENES SOMOS */
+.main-quienessomos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+.main-quienessomos h3{
+        margin: 16px;
+        font-family: "Open Sans";
+        font-size: x-large;
+        }
+
+.main-quienessomos p{
+            font-family: "Open Sans";
+        }
+
+.main-quienessomos img{
+            width: 500px;
+        }
+
+.main-quienessomos p{
+            margin: 80px;
+            padding: 16px;
+            max-width: 300px;
+        }
+
+/* PRODUCTOS */
+
+.main-productos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7F6F3;
+    }
+
+.productos img{
+    margin: 16px;
+    width: 15rem;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.main-productos button{
+    
+    display: flex;
+    align-items: flex-end;
+    margin: 16px;
+    padding: 4px;
+    font-family: "Open Sans";
+    background-color: #D5DB8B;
+    color: #376A20;
+    border-radius: 15px;
+    border:#376A20;
+}
+
+.main-productos button:hover{
+    background-color: #F7F6F3;
+    color: #376A20;
+    
+}
+
+
+
+
+/* CONTACTO */
+.main-contacto h3{
+            margin: 16px;
+            font-family: "Open Sans";
+            font-size: x-large;
+        }
+
+.main-contacto form{
+            margin: 50px;
+            }
+
+.main-contacto button{
+            margin: 2px;
+            padding: 5px;
+            font-family: "Open Sans";
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 2px 2px 5px #AEAFF8
+        }
+
+/* RESPONSIVE */
+
+/* Tamaño chico */
+@media (max-width:420px) {
+.header{
+    width: 100%;
+}
+.footer-info{
+    width: 100%;
+}    
+}
