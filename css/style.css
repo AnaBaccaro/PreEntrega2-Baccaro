@@ -20,6 +20,7 @@
     margin: 0;
 }
 
+
 /* NAV */
 
 .header{
@@ -35,6 +36,7 @@
     align-content: center;
 }
 
+
 .header a img{
     max-width: 20vh;
     padding: 8px;
@@ -46,9 +48,6 @@
 }
 
 
-.nav-link active{
-    color: #376A20;
-}  
 
 
 .main{
@@ -61,28 +60,10 @@
     min-height: 70vh
     }
 
-.nav ul{
-    background-color: #D5DB8B; 
-    display: flex;
-    list-style: none;
-    width: 500px;
-    justify-content: space-around;
-    }
 
-.nav a{
-    text-decoration: none;
-    color: #AEAFF8;
-    font-weight: bold;
-    }
 
 
 /* INDEX */
-/* .banner-principal{
-    max-width: 100%;
-    padding: auto;
-    } */
-
-
 
 .banner-principal{
     font-family: "Open Sans";
@@ -94,11 +75,11 @@
     max-width: 100%;
     margin-left: 27px;
     margin-top: 16px;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     }
 
 .nuestra-mision {
-    color: #D5DB8B;
+    color: #000;
     font-size: 50px;
     text-align: center;
     white-space: pre-line;
@@ -106,38 +87,187 @@
     margin-bottom: 2vh;
     }
 
+
 .mision {
-    max-width: 100vh;
-    font-family: "Open Sans";
     font-size: 16px;
-    margin: 16px;
-    text-align: center;
+    text-align: left;
     display: inline;
-    max-width: 500px;
-   
-    
-    
+    justify-content: center;
+    max-width: 10px;
+    max-height: 16px;
+    margin: auto;
+    /* font-family: "Open Sans";
+    font-size: 16px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* max-width: 16px;
+    white-space: pre-line; */ */
+   }
+
+.treasures-costumers{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 50px;
+    text-align: center;
+    white-space: pre-line;
+    margin-top: 5rem;
+    margin-bottom: 2vh;
+}   
+
+.img-costumers img{
+    margin: 16px;
+    width: 15rem;
+    border-radius: 20px
+    }
+
+.img-costumers{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.img-1:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    }
+
+.img-2:hover{
+        transform: scale(1.2);
+        transition: 2s;
+    }
+
+.img-3:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.img-4:hover{
+    transform: scale(1.2);
+    transition: 2s;
 }
 
 
+.main, .footer {
+    background-color: #F7F6F3;
+    width: 100%;
+  }
 
     /* FOOTER */
 .footer-info {
+    border-top: 1px solid black;
     font-family: "Open Sans";
-    background-color:#AEAFF8;
-    min-height: 15vh;
-    color: #F7F6F3;
-    list-style: none;
-    text-decoration: none;
+    background-color:#F7F6F3;
+    min-height: 50vh;
+    color: #000;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    position: fixed bottom;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    /* position: fixed bottom; */
+    margin-top: 5rem;
+}
 
-  
+
+.suscripcion h3{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin-left: 0;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.suscripcion p{
+    display: flex;
+    font-weight: thin;
+    color: #000;
+    text-decoration: none;
+    margin-left: 0;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.suscripcion input{
+    display: flex;
+    width: 23rem ;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    }
+
+
+input::placeholder{
+    border: 16px ;
+}
+
+.suscripcion button{
+    display: flex;
+    text-align: left;
+    margin-top: 5px;
+    align-items: flex-end;
+    margin-left: 0;
+    padding: 4px;
+    background-color: #000;
+    color: #F7F6F3;
+    border-radius: 5px;
+    border:#000;
+    text-decoration: none;
+   }
+
+.suscripcion button:hover{
+    background-color: #D5DB8B;
+    color: #376A20;
+}
+
+.dudas{
+    list-style-type: none;
+    text-align: left;
+    }
+
+.dudas a{
+    color: #000;
+    text-decoration: none;
+    }
+
+.dudas a:hover{
+   font-weight: bold;
+}
+
+.redes-sociales a{
+   margin: 10px;
+   color: #000
    
+}
+
+.redes-sociales a:hover{
+    color:#D5DB8B
+   
+    
+}
+
+.logo-redes{
+    width: 7rem;
+}
+
+.texto-xs-bottom{
+    font-size: 12px;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 1.5rem;
 }
 
 
