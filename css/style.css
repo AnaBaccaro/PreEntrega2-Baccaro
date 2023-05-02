@@ -281,7 +281,6 @@ input::placeholder {
     margin: 5rem
 }
 
-
 .main-workshop button {
     margin: 16px;
     padding: 4px;
@@ -300,14 +299,10 @@ input::placeholder {
     color: #376A20;
 }
 
-
-
 .main-workshop button:hover {
     background-color: #F7F6F3;
     color: #376A20;
-
 }
-
 
 /* QUIENES SOMOS */
 .main-quienessomos {
