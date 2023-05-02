@@ -281,20 +281,23 @@ input::placeholder {
     margin: 5rem
 }
 
-.main-workshop img {
-    min-width: 16px;
-    
-}
 
 .main-workshop button {
     margin: 16px;
     padding: 4px;
+    margin-left: 3.5rem;
     font-family: "Open Sans";
-    background-color: #D5DB8B;
+    background-color: #000;
     color: #F7F6F3;
-    border-radius: 10px;
     border-radius: 15px;
-    border: #376A20;
+    border: #000;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.main-workshop button:hover {
+    background-color: #D5DB8B !important;
+    color: #376A20;
 }
 
 
@@ -450,3 +453,4 @@ margin-bottom: 5px;
     .header {
         width: 100%;
     }
+}
